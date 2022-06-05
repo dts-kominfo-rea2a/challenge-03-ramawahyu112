@@ -24,7 +24,7 @@ const dataBelanjaan = [
 const listBelanjaan = (dataBelanjaan) =>{
   let arrayBelanjaan = [];
   for(let counter = 0; counter<dataBelanjaan.length; counter++){
-    arrayBelanjaan[counter] = dataBelanjaan[counter].nama + ' x '+ dataBelanjaan[counter].kuantitas;
+    arrayBelanjaan[counter] = '- '+ dataBelanjaan[counter].nama + ' x '+ dataBelanjaan[counter].kuantitas;
   }
   return arrayBelanjaan;
 } ;
